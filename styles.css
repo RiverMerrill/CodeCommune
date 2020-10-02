@@ -5,13 +5,17 @@ body {
   transition: background-color .5s ease, color .5s ease;
 }
 
+.logo {
+  width: 100px;
+}
+
 .container {
   position: relative;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 .content-wrap {
-  padding-bottom: 5rem;
+  padding-bottom: 2.5rem;
 }
 
 a {
@@ -20,8 +24,9 @@ a {
 }
 
 
-.logo {
-  margin: 1%;
+.title {
+  width: 100%;
+  text-align: center;
 }
 
 button {
@@ -91,5 +96,8 @@ button.discord {
     border-radius: 0px;
     width: 90%;
     margin: 2%;
+  }
+  .logo {
+    visibility: hidden;
   }
 }
