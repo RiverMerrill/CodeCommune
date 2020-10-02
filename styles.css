@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+body {
+  font-family: 'Aldrich', sans-serif;
+  color: #8EE4AF;
+  transition: background-color .5s ease, color .5s ease;
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #EDF5E1;
+}
+
+
+.logo {
+  margin: 1%;
+}
+
+button {
+  cursor: pointer;
+  font-size: 20pt;
+  border: none;
+  background-color: #5CDB95;
+  color: #437571;
+  font-family: 'Aldrich', sans-serif;
+  padding: 8px;
+  padding-bottom: 3px;
+  transition: background-color .5s ease, color .5s ease;
+  border-radius: .5rem;
+}
+
+button:hover {
+  background-color: #48bd7c;
+  color: #EDF5E1;
+}
+
+button.discord {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.card {
+  background-color: #5CDB95;
+  padding: 2%;
+  border-radius: 20px;
+  color: #437571;
+  width: 60%;
+  margin: auto;
+  margin-top: 4%;
+  transition: padding .5s ease, border-radius .5s ease, width .5s ease, margin .5s ease;
+}
+
+.card p {
+  font-size: 16pt;
+  line-height: 25px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #437571;
+  height: 2.5rem;
+}
+
+.footer a {
+  color: #437571;
+}
+
+.footer .heart {
+  width: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  body{
+    background-color: #5CDB95;
+    color: #437571;
+  }
+  .card {
+    padding: 2%;
+    border-radius: 0px;
+    width: 90%;
+    margin: 2%;
+  }
+}
