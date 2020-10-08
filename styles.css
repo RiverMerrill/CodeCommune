@@ -5,6 +5,14 @@ body {
   transition: background-color .5s ease, color .5s ease;
 }
 
+iframe {
+  width: 800px;
+  height: 500px;
+  display: block;
+  border: none;
+  margin: auto;
+}
+
 .logo {
   width: 100px;
 }
